@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+.bg-dark {
+  background-color: #1f2029 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+canvas,
+.table> :not(caption)>*>* {
+  background-color: #1f2029 !important;
+}
+
+.col-lg-cus1 {
+  flex: 0 0 auto;
+  width: 5.333333%;
+}
+
+.col-lg-cus11 {
+  flex: 0 0 auto;
+  width: 94.666667%;
+}
+
+.p-cs-3 {
+  padding: 9px 12px !important;
+}
+
+.p-cs-5 {
+  padding: 20px 20px !important;
+}
+
+.text-bg-delivery {
+  background-color: #155247;
+  color: #28a783;
+}
+
+.text-bg-pf {
+  background-color: #662f3b;
+  color: #b55b65;
+}
+
+.text-bg-m1 {
+  background-color: #61303a;
+  color: #ed6924;
+}
+
+.text-bg-m2 {
+  background-color: #2a3368;
+  color: #657dd8;
+}
+
+.text-bg-m3 {
+  background-color: #204a62;
+  color: #4598bf;
+}
+
+.mid-label {
+  top: 2.4rem;
+  left: 4.8rem;
+}
+
+.text-bg-c1 {
+  background-color: #2a3371;
+  color: #3d64f4;
+}
+
+.text-bg-c3 {
+  background-color: #663337;
+  color: #f65d5d;
+}
+
+.text-bg-c4 {
+  background-color: #5b2a4d;
+  color: #ea41a5;
+}
+
+.fa-sort-desc:before,
+.fa-sort-down:before {
+  position: relative;
+  top: -3px;
+  right: 4px;
+}
+
+.fa-sort-asc:before,
+.fa-sort-asc:before {
+  position: relative;
+  top: 3px;
+  right: 4px;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-custom {
+  height: 100vh;
+  max-height: 1100px;
+ 
+}
+.profile-img.dropdown-toggle::after {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .col-lg-cus1 {
+    flex: 0 0 auto;
+    width: 100%;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .col-lg-cus11 {
+    flex: 0 0 auto;
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .navbar-custom {
+    height: 3.5em;
+    max-height: 3.5em;
+
   }
 }
